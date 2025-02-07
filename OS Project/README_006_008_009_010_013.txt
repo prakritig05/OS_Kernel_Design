@@ -1,0 +1,23 @@
+Project Custom Kernel with GRUB Bootloader
+
+Description
+This project contains two custom kernels — one barebones and one meaty skeleton — that can be booted using GRUB from ISO images. The kernels are designed for a basic boot process that prints a message to the screen, and the ISOs were created using GRUB for a multiboot-compatible system.
+
+Files
+1. `006_008_009_010_013_bb.iso` This is the ISO for the Bare Bones Kernel. It includes a simple kernel that prints Hello, Bare Bones Kernel! to the screen.
+2. `006_008_009_010_013_ms.iso` This is the ISO for the Meaty Skeleton Kernel. It includes a kernel that prints Hello, Meaty Skeleton Kernel! to the screen.
+
+Loading Instructions (assuming you have QEMU pre installed)
+1. To load the ISO for the Bare Bones Kernel, use the following command
+   ```bash
+   qemu-system-i386 -cdrom 006_008_009_010_013_bb.iso -display curses
+2. To load the ISO for the Meaty Skeleton Kernel, use the following command
+   ```bash
+   qemu-system-i386 -cdrom 006_008_009_010_013_ms.iso -display curses
+
+Contributors:
+Neha Reddy Putta :SE22UCAM006
+Prakriti Gupta   :SE22UCAM008
+Sagarla Priyanka :SE22UCAM009
+Shriya Sengupta  :SE22UCAM010
+Chirala Hema     :SE22UCAM013
