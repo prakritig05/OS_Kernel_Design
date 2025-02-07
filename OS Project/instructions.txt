@@ -14,10 +14,3 @@ Loading Instructions (assuming you have QEMU pre installed)
 2. To load the ISO for the Meaty Skeleton Kernel, use the following command
    ```bash
    qemu-system-i386 -cdrom 006_008_009_010_013_ms.iso -display curses
-
-Contributors:
-Neha Reddy Putta :SE22UCAM006
-Prakriti Gupta   :SE22UCAM008
-Sagarla Priyanka :SE22UCAM009
-Shriya Sengupta  :SE22UCAM010
-Chirala Hema     :SE22UCAM013
