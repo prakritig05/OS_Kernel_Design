@@ -41,7 +41,7 @@ The **Meaty Skeleton Kernel** is an extension of the Bare Bones Kernel, but with
     - The Meaty Skeleton Kernel begins by setting up the **GDT** and **interrupts**.
     - Once these are set, the kernel can safely handle tasks and respond to events. Finally, the kernel prints **“Hello, Meaty Skeleton Kernel!”** to the screen, showing that it’s ready to do more than just greet the user.
 5. **Comparison:**
-    - While the Bare Bones kernel simply prints a message, the Meaty Skeleton kernel **prepares the system** before showing the message. It’s like organizing a desk before you start working. The Meaty Skeleton Kernel isn’t just functional — it’s organized and ready to take on more tasks. (Meaty skeleton is sooo not us students! 😊lol)
+    - While the Bare Bones kernel simply prints a message, the Meaty Skeleton kernel **prepares the system** before showing the message. It’s like organizing a desk before you start working. The Meaty Skeleton Kernel isn’t just functional — it’s organized and ready to take on more tasks.
 
 **Approach to Development**
 
@@ -55,10 +55,10 @@ The journey of creating these two kernels involved several steps, each teaching 
     - Writing this code was similar to learning a new language. Each function we wrote had to be carefully crafted so that it would run properly on the machine.
 3. **Creating the Multiboot Header:**
     - The **multiboot header** is a key component that tells the **GRUB bootloader** how to load the kernel. It’s like the **invitation** that GRUB needs to get the kernel into memory and ready to run.
-    - This step was confusing at first, but once we understood how it worked, it was like unlocking a door that led to the rest of the process. (after like 1000 hours)
+    - This step was confusing at first, but once we understood how it worked, it was like unlocking a door that led to the rest of the process. 
 4. **Compiling and Linking:**
     - The next step involved **compiling** the code using GCC and **assembling** it with NASM. The final output had to be linked together using **LD** (the linker) to create the final **kernel binary**.
-    - Compiling and linking were like **mixing ingredients** and then baking them into something solid. It’s where the magic happens. (we were cooked btw)
+    - Compiling and linking were like **mixing ingredients** and then baking them into something solid. It’s where the magic happens. 
 5. **Creating the Bootable ISO:**
     - After everything was compiled and linked, we used **GRUB’s grub-mkrescue** tool to create the **bootable ISO**.
     - This step was a bit like burning a **bootable CD**, except it was all in a digital ISO file format. The ISO file contained everything necessary to load the kernel into memory and run it on a system.
@@ -67,7 +67,7 @@ The journey of creating these two kernels involved several steps, each teaching 
 
 1. **The OS Hopping Saga:**
 
-- Initially, we tried this project on **MacBook**, thinking we could get away with it. Spoiler alert: we couldn’t. Then we shifted to **Windows with WSL**, but that wasn’t smooth either. Finally, we went all-in and installed a **dual-boot Linux OS** on the Windows laptop. Just when we thought we were unstoppable, we managed to **crash the Linux OS within two hours**. It was chaotic, funny, and exhilarating at the same time. Picture a team of engineers crashing their car right after assembling it — yep, that was us with Linux!
+- Initially, we tried this project on **MacBook**, thinking we could get away with it. Then we shifted to **Windows with WSL**, but that wasn’t smooth either. Finally, we went all-in and installed a **dual-boot Linux OS** on the Windows laptop. Just when we thought we were unstoppable, we managed to **crash the Linux OS within two hours**. It was chaotic, funny, and exhilarating at the same time. Picture a team of engineers crashing their car right after assembling it — yep, that was us with Linux!
 
 1. **The Infinite Loop of Broken Packages:**
 
